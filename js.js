@@ -24,7 +24,7 @@ function unDo() {
 
     // Restaurar o texto original da div com id "image"
     var imageDiv = document.getElementById('image');
-    imageDiv.innerHTML = "Passe o mouse sobre uma imagem abaixo para exibir aqui.";
+    imageDiv.innerHTML = "Hover over an image below to display here.";
     console.log("Texto restaurado para o original.");
 
     // Restaurar a imagem de fundo da div com id "image"
